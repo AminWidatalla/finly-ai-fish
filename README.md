@@ -76,3 +76,7 @@ other external assets may have separate licenses.
 
 Amin Widatalla 
 aminmagdi21@gmail.com  
+## Links
+
+- [GitHub repository](https://github.com/AminWidatalla/finly-ai-fish)
+- [LinkedIn — Amin Widatalla](https://www.linkedin.com/in/amin-widatalla-0753a0419/)

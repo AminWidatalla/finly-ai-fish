@@ -64,7 +64,14 @@ content-management tools, security review, and client-specific configuration.
 ## Privacy and security
 
 Do not commit API keys, certificates, private assets, or visitor recordings.
+## License
 
+The source code is proprietary and provided for portfolio and evaluation
+purposes only. Commercial use, redistribution, deployment, and derivative
+works require written permission from the author.
+
+Third-party libraries, APIs, Unreal Engine components, models, voices, and
+other external assets may have separate licenses.
 ## Contact
 
 Amin Widatalla 

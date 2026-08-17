@@ -6,9 +6,9 @@ educational spaces, and branded installations.
 Visitors can interact with Finly through text or voice while the animated
 character is streamed from Unreal Engine to a browser.
 
-## Demo
+## Demo video
 
-Add your demo video link here.
+[Watch the Finly demo on YouTube](https://www.youtube.com/watch?v=5u6hbBXItSg)
 
 ## Features
 

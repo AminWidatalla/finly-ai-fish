@@ -1,0 +1,29 @@
+# Project Status
+
+## Working
+
+- Unreal character streaming
+- Browser player
+- Text visitor questions
+- Microphone recording
+- AI question processing
+- Speech transcription
+- Text-to-speech generation
+- Visitor-question queue
+- Local reverse-proxy deployment
+- Multiple streamer selection
+
+## Demonstrated prototype
+
+The system has been demonstrated on a local network.
+
+## Future work
+
+- Authentication
+- Monitoring and logging dashboard
+- Multi-language support
+- Museum content management
+- Cloud deployment
+- Visitor analytics
+- Production security review
+- Multi-venue deployment tools

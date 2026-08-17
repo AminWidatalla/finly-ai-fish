@@ -1,0 +1,11 @@
+.env
+*.pem
+*.key
+generated_audio/
+logs/
+__pycache__/
+*.exe
+*.pak
+*.uasset
+*.umap
+fish_voice_reference.wav

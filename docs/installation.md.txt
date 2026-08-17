@@ -1,0 +1,58 @@
+# Installation
+
+## Requirements
+
+- Windows
+- Python
+- Unreal Engine project with Pixel Streaming enabled
+- Pixel Streaming signalling server
+- Caddy
+- Groq API key
+- Chatterbox TTS dependencies
+
+## Backend
+
+Create a virtual environment:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+Create `.env`:
+
+```env
+GROQ_API_KEY=your_key_here
+```
+
+Place the voice reference file beside the backend according to the
+configuration in the Python application.
+
+Start the backend:
+
+```powershell
+python backend/fish_tts_server_phone_bridge.py
+```
+
+The backend runs on port 8000.
+
+## Pixel Streaming
+
+Start the signalling server on port 8888.
+
+Start Unreal using the Pixel Streaming URL supported by your Unreal version:
+
+```powershell
+.\AI_Fish_Exhibit_UE.exe -PixelStreamingURL=ws://127.0.0.1:8888
+```
+
+## Caddy
+
+Start Caddy using the example Caddyfile.
+
+Open:
+
+```text
+http://127.0.0.1/
+```

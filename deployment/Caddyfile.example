@@ -1,0 +1,17 @@
+﻿:80 {
+    handle /visitor-* {
+        reverse_proxy 127.0.0.1:8000
+    }
+
+    handle /next-question {
+        reverse_proxy 127.0.0.1:8000
+    }
+
+    handle /health {
+        reverse_proxy 127.0.0.1:8000
+    }
+
+    handle {
+        reverse_proxy 127.0.0.1:8080
+    }
+}
